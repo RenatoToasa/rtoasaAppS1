@@ -18,7 +18,7 @@ namespace rtoasaAppS1
         private void btnSaludo_Clicked(object sender, EventArgs e)
         {
             //Almacenando en una variable, lo que el usuario ingresa en la caja de texto
-            string texto = txtSaludo.Text;
+            string texto = txtSaludo.Text; //hola d
             string mensaje = "Hola " + texto;
             //Alerta para el usuario con XAMARIN
             DisplayAlert("Mensaje de bienvenida", mensaje, "OK");
